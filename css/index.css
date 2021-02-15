@@ -1,0 +1,87 @@
+header {
+  background-color: #dadada;
+  text-align: center;
+  position: relative;
+  height: 100px;
+}
+
+header .lnb li {
+  display: inline-block;
+}
+
+header .lnb li a {
+  padding: 40px 40px 40px 40px;
+  height: 100px;
+  color: #333;
+  font-size: 25px;
+  line-height: 100px;
+}
+
+header .lnb li a  {
+  position: relative;
+}
+
+header .lnb li:first-child {
+  font-weight: bold;
+}
+
+header .sns {
+  position: absolute;
+  top: 25px;
+  right: 50px;
+}
+
+header .sns li {
+  display: inline-block;
+  position: relative;
+}
+
+header .sns li a img {
+  height: 40px;
+  width: 40px;
+  padding: 5px 5px;
+}
+
+header .mainimg {
+  height: 100px;
+  width: 125px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.win {
+  text-align: center;
+  height: 1000px;
+  position: relative;
+}
+
+.win .hi {
+  line-height: 200px;
+  position: relative;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.win .info {
+  text-align: center;
+  border-radius: 5em;
+  position: relative;
+  height: 700px;
+  background-color: #333;
+  margin: 0% 15% 0% 15%;
+}
+
+.win .info .infoimg {
+  height: 700px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.win .info img {
+  height: 550px;
+  width: 450px;
+  position: relative;
+  margin: 75px;
+}
