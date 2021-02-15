@@ -1,8 +1,14 @@
+* {
+  box-sizing: border-box;
+}
 header {
   background-color: #dadada;
   text-align: center;
-  position: relative;
+  position: fixed;
+  width: 100%;
   height: 100px;
+  top:0;
+  z-index: 1000;  
 }
 
 header .lnb li {
@@ -52,8 +58,6 @@ header .mainimg {
 
 .win {
   text-align: center;
-  height: 1000px;
-  position: relative;
 }
 
 .win .hi {
@@ -61,27 +65,29 @@ header .mainimg {
   position: relative;
   font-size: 45px;
   font-weight: bold;
+  padding-top: 100px;
 }
 
 .win .info {
-  text-align: center;
-  border-radius: 5em;
-  position: relative;
-  height: 700px;
-  background-color: #333;
-  margin: 0% 15% 0% 15%;
-}
-
-.win .info .infoimg {
-  height: 700px;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
+  margin: 0 auto;
+  margin-top : 40px;
+  padding : 25px;
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  background-color: tomato;
 }
 
 .win .info img {
-  height: 550px;
-  width: 450px;
-  position: relative;
-  margin: 75px;
+  width :250px;
+  height:250px;
+  border-radius: 10px;
 }
+
+.win .info img + img{
+  margin-left: 20px;
+}
+
+
+
