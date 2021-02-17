@@ -4,103 +4,187 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>하하하하하하하하하</title>
+    <title>자기소개페이지</title>
     <link rel="stylesheet" href="css/default.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!--Start header-->
-    <header>
-      <nav class="lnb">
-        <ul>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#">Determination</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#">Project</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!--End header-->
-
     <!--Start Home section-->
-    <section class="win" id="Home">
-      <div class="main">
-        <div class="logo"></div>
-          <h1>DEVELOPER</h1>
+    <section class="main" id="Home">
+      <header class="header_navigtion">
+        <a href="#Home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills_link">Skills</a>
+      </header>
+      <div class="logo_box">
+        <img src="./images/logo_transparent.png" alt="메인로고" />
+      </div>
+      <div class="main_contents">
+        <h1>DEVELOPER</h1>
         <div class="line"></div>
-        <p>
-          위코드 19기 프론트엔드를 공부하고 있는 Juyoung Son의 포트폴리오
-          사이트입니다.
-        </p>
-        <a href="#info" class="learnmore"> 상세보기 </a>
+        <p>위코드 19기에서 프론트엔드를 공부하고 있는 Juyoung Son입니다.</p>
       </div>
     </section>
     <!--End Home section-->
 
+    <!-- Start About -->
+    <section class="about" id="about">
+      <h1>ABOUT</h1>
+      <div class="about_contents">
+        <div class="about_contents_box one">
+          <img
+            class="photo_img"
+            src="images/KakaoTalk_20210217_142850369.jpg"
+            alt=""
+          />
+          <div class="profile">
+            <h3>Juyoung Son</h3>
+          </div>
+          <div class="follow">
+            <div class="hover">
+              &#128590;&#127995;&#8205;&#9794;&#65039; <sapn>20</sapn> follower
+            </div>
+            <div class="dot">·</div>
+            <div class="hover"><sapn>20</sapn> following</div>
+            <div class="dot">·</div>
+            <div class="hover"><img src="images/Star.svg" alt="" />110</div>
+          </div>
+        </div>
+        <ul class="about_contents_box two">
+          <li>
+            <h3>Profile</h3>
+            <div>
+              <p>이름 : 손주영</p>
+              <p>나이 : 27세(1995.04.05)</p>
+              <p>E-mail : wndud0647@gmail.com</p>
+            </div>
+          </li>
+          <li>
+            <h3>Like</h3>
+            <div>
+              <p>1. 게임을 좋아하고 리그오브레전드를 오랫동안 즐기고 있어요</p>
+              <p>2. 유튜브를 보는 것을 좋아해요(클템, 고기남자, 수빙수 등등)</p>
+              <p>3. 마블시리즈를 너무나도 사랑해요</p>
+            </div>
+          </li>
+          <li>
+            <h3>Why Wedode</h3>
+            <div>
+              <p>1. 현업에서 일하는 방식을 배우고 싶어요</p>
+              <p>2. 부족한 코딩 기술을 늘리고 싶어요</p>
+              <p>3. 협업에 대해 많은 것을 알고 싶어요</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="about_contents_box two">
+          <li>
+            <h3>Moto</h3>
+            <div>
+              <p>1. 탓하지 말자</p>
+              <p>2. 핑계대지 말자</p>
+              <p>3. 변명하지 말자</p>
+            </div>
+          </li>
+          <li>
+            <h3>Hate</h3>
+            <div>
+              <p>1. 오이, 회를 싫어해서 회무침은 최악이랍니다</p>
+              <p>2. 소리에 예민해서 소음이 싫어요</p>
+              <p>3. 여름만 되면 기운이 없어져서 힘들어요</p>
+            </div>
+          </li>
+          <li>
+            <h3>Determination</h3>
+            <div>
+              <p>1. 끊임없이 공부하자</p>
+              <p>2. 컴퓨터는 죄가없다 내 코드가 잘못된 거다</p>
+              <p>3. 체력을 기르자</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- End About -->
+
     <!--Start skills section -->
     <section class="win" id="skills">
-      <p class="hi">Skills</p>
       <div class="contents-wrapper">
+        <div class="win_h1">
+          <h1 class="hi" id="skills_link">Skills</h1>
+        </div>
+
         <div class="info">
-            <ul>
-              <li>
-                <img src="../images/HTML.png" alt="" class="icon" />
-                <p>HTML - 85%</p>
-                <progress class="progress_bar" max="100" value="85">
-                </progress>
-              </li>
-              <li>
-                <img src="images/CSS.png" alt="" class="icon" />
-                <p>CSS - 60%</p>
-                <progress class="progress_bar" max="100" value="60">
-                </progress>
-              </li>
-              <li>
-                <img src="images/JAVASCRIPT.png" alt="" class="icon" />
-                <p>JAVASCRIPT - 50%</p>
-                <progress class="progress_bar" max="100" value="50">
-                </progress>
-              </li>
-              <li>
-                <img src="images/JQUERY.png" alt="" class="icon" />
-                <p>JQUERY - 30%</p>
-                <progress class="progress_bar" max="100" value="50">
-                </progress>
-              </li>
-              <li>
-                <img src="images/python.png" alt="" class="icon" />
-                <p>Python - 20%</p>
-                <progress class="progress_bar" max="100" value="50">
-                </progress>
-              </li>
-              <li>
-                <img src="images/react.png" alt="" class="icon" />
-                <p>React - 30%</p>
-                <progress class="progress_bar" max="100" value="50">
-                </progress>
-              </li>
-              <li>
-                <img src="images/react.png" alt="" class="icon" />
-                <p>OA - 80%</p>
-                <progress class="progress_bar" max="100" value="80">
-                </progress>
-              </li>
-              <li>
-                <img src="images/react.png" alt="" class="icon" />
-                <p>Driving - 70%</p>
-                <progress class="progress_bar" max="100" value="50">
-                </progress>
-              </li>
-            </ul>
+          <ul>
+            <li>
+              <img src="images/HTML.png" alt="" class="icon" />
+              <p>HTML - 85%</p>
+              <progress class="progress_bar" max="100" value="85"></progress>
+            </li>
+            <li>
+              <img src="images/CSS.png" alt="" class="icon" />
+              <p>CSS - 60%</p>
+              <progress class="progress_bar" max="100" value="60"></progress>
+            </li>
+            <li>
+              <img src="images/JAVASCRIPT.png" alt="" class="icon" />
+              <p>JAVASCRIPT - 50%</p>
+              <progress class="progress_bar" max="100" value="50"></progress>
+            </li>
+            <li>
+              <img src="images/JQUERY.png" alt="" class="icon" />
+              <p>JQUERY - 30%</p>
+              <progress class="progress_bar" max="100" value="30"></progress>
+            </li>
+            <li>
+              <img src="images/python.png" alt="" class="icon" />
+              <p>Python - 20%</p>
+              <progress class="progress_bar" max="100" value="20"></progress>
+            </li>
+            <li>
+              <img src="images/react.png" alt="" class="icon" />
+              <p>React - 30%</p>
+              <progress class="progress_bar" max="100" value="30"></progress>
+            </li>
+            <li>
+              <img src="images/oracle.jfif" alt="" class="icon" />
+              <p>OracleDB - 50%</p>
+              <progress class="progress_bar" max="100" value="50"></progress>
+            </li>
+            <li>
+              <img src="images/java.png" alt="" class="icon" />
+              <p>Java - 60%</p>
+              <progress class="progress_bar" max="100" value="60"></progress>
+            </li>
+            <li>
+              <img src="images/office.png" alt="" class="icon" />
+              <p>OA - 80%</p>
+              <progress class="progress_bar" max="100" value="80"></progress>
+            </li>
+          </ul>
           <div class="info"></div>
         </div>
       </div>
     </section>
-
-    </section>
     <!--End skills section -->
 
-    <!-- <nav class="sns">
+    <!-- Start fotter -->
+    <footer class="bottom">
+      <!-- <nav class="sns">
         <ul>
           <li>
             <a href="#"><img src="images/facebook.png" alt="" /></a>
@@ -113,5 +197,8 @@
           </li>
         </ul>
       </nav> -->
+      <p>Copyright ©SONJUYOUNG. All Rights Reserved.</p>
+    </footer>
+    <!-- End fotter -->
   </body>
 </html>
