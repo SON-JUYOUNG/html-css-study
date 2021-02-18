@@ -11,7 +11,6 @@ html {
 }
 
 .header_nevigation{
-  background: black;
   display: flex;
   justify-content: center;
   width: 100%;
