@@ -1,0 +1,94 @@
+/* home */
+* {
+  font-family: "Oswald", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header_nevigation{
+  background: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+.header_nevigation a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 100%;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.header_nevigation a:hover {
+  font-weight: bold;
+}
+
+header .mainimg {
+  height: 100px;
+  width: 125px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/main.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main .logo_box {
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 350px;
+  height: 350px;
+}
+
+.main .logo_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.main_contents {
+  margin: 0 auto;
+  margin-top: -60px;
+  width: 500px;
+  text-align: center;
+}
+
+.main_contents h1 {
+  font-size: 40px;
+  color: #dadada;
+  letter-spacing: 6px;
+}
+
+.main_contents .line {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 100px;
+  height: 3px;
+  background: #dadada;
+}
+
+.main_contents p {
+  margin-top: 40px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #dadada;
+  font-weight: 300px;
+}
