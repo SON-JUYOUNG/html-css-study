@@ -10,6 +10,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.menu_icon{
+  display: none;
+  font-size: 45px;
+}
+
 .header_nevigation{
   display: flex;
   justify-content: center;
