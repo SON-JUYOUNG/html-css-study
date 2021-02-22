@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>자기소개페이지</title>
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/fotter.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/fotter.css" />
+    <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/default.css" />
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/skills.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <!-- <link
       href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
@@ -26,8 +26,24 @@
       href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Nanum+Pen+Script&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css
-    ">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css
+    "
+    />
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+      $(window).resize(function(){
+        if($(window).width() < 768){
+          $("#home a").hide();
+          $("#home .menu_icon").click(function () {
+          $("#home a").toggle();
+          }); 
+        }else{
+          $("#home a").show();
+        }
+      });
+    </script>
   </head>
   <body>
     <!--Start Home section-->
@@ -48,7 +64,6 @@
         <div class="line"></div>
         <p>위코드 19기에서 프론트엔드를 공부하고 있는 Juyoung Son입니다.</p>
       </div>
-    
     </section>
     <!--End Home section-->
 
@@ -77,13 +92,23 @@
           <div class="sns">
             <ul>
               <li>
-                <a href="https://www.facebook.com/profile.php?id=100004057694272" target="_blank"><img src="images/facebook.png" alt="" /></a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100004057694272"
+                  target="_blank"
+                  ><img src="images/facebook.png" alt=""
+                /></a>
               </li>
               <li>
-                <a href="https://github.com/SON-JUYOUNG?tab=repositories" target="_blank"><img src="images/github.png" alt="" /></a>
+                <a
+                  href="https://github.com/SON-JUYOUNG?tab=repositories"
+                  target="_blank"
+                  ><img src="images/github.png" alt=""
+                /></a>
               </li>
               <li>
-                <a href="https://www.instagram.com/95.s.guri/" target="_blank"><img src="images/instagram.png" alt="" /></a>
+                <a href="https://www.instagram.com/95.s.guri/" target="_blank"
+                  ><img src="images/instagram.png" alt=""
+                /></a>
               </li>
             </ul>
           </div>
@@ -113,8 +138,6 @@
               <p>3. 협업에 대해 많은 것을 알고 싶어요</p>
             </div>
           </li>
-        </ul>
-        <ul class="about_contents_box two">
           <li>
             <h3>Moto</h3>
             <div>
@@ -146,56 +169,56 @@
 
     <!--Start skills section -->
     <section class="skills" id="skills">
-          <h1>SKILLS</h1>
-        <div class="skills_info">
-          <ul class="skills_gallery">
-            <li>
-              <img src="images/HTML.png" alt="" class="icon" />
-              <p>HTML - 85%</p>
-              <progress class="progress_bar" max="100" value="85"></progress>
-            </li>
-            <li>
-              <img src="images/CSS.png" alt="" class="icon" />
-              <p>CSS - 60%</p>
-              <progress class="progress_bar" max="100" value="60"></progress>
-            </li>
-            <li>
-              <img src="images/JAVASCRIPT.png" alt="" class="icon" />
-              <p>JAVASCRIPT - 50%</p>
-              <progress class="progress_bar" max="100" value="50"></progress>
-            </li>
-            <li>
-              <img src="images/JQUERY.png" alt="" class="icon" />
-              <p>JQUERY - 30%</p>
-              <progress class="progress_bar" max="100" value="30"></progress>
-            </li>
-            <li>
-              <img src="images/python.png" alt="" class="icon" />
-              <p>Python - 20%</p>
-              <progress class="progress_bar" max="100" value="20"></progress>
-            </li>
-            <li>
-              <img src="images/react.png" alt="" class="icon" />
-              <p>React - 30%</p>
-              <progress class="progress_bar" max="100" value="30"></progress>
-            </li>
-            <li>
-              <img src="images/oracle.jfif" alt="" class="icon" />
-              <p>OracleDB - 50%</p>
-              <progress class="progress_bar" max="100" value="50"></progress>
-            </li>
-            <li>
-              <img src="images/java.png" alt="" class="icon" />
-              <p>Java - 60%</p>
-              <progress class="progress_bar" max="100" value="60"></progress>
-            </li>
-            <li>
-              <img src="images/office.png" alt="" class="icon" />
-              <p>OA - 80%</p>
-              <progress class="progress_bar" max="100" value="80"></progress>
-            </li>
-          </ul>
-          <div class="info"></div>
+      <h1>SKILLS</h1>
+      <div class="skills_info">
+        <ul class="skills_gallery">
+          <li>
+            <img src="images/HTML.png" alt="" class="icon" />
+            <p>HTML - 85%</p>
+            <progress class="progress_bar" max="100" value="85"></progress>
+          </li>
+          <li>
+            <img src="images/CSS.png" alt="" class="icon" />
+            <p>CSS - 60%</p>
+            <progress class="progress_bar" max="100" value="60"></progress>
+          </li>
+          <li>
+            <img src="images/JAVASCRIPT.png" alt="" class="icon" />
+            <p>JAVASCRIPT - 50%</p>
+            <progress class="progress_bar" max="100" value="50"></progress>
+          </li>
+          <li>
+            <img src="images/JQUERY.png" alt="" class="icon" />
+            <p>JQUERY - 30%</p>
+            <progress class="progress_bar" max="100" value="30"></progress>
+          </li>
+          <li>
+            <img src="images/python.png" alt="" class="icon" />
+            <p>Python - 20%</p>
+            <progress class="progress_bar" max="100" value="20"></progress>
+          </li>
+          <li>
+            <img src="images/react.png" alt="" class="icon" />
+            <p>React - 30%</p>
+            <progress class="progress_bar" max="100" value="30"></progress>
+          </li>
+          <li>
+            <img src="images/oracle.jfif" alt="" class="icon" />
+            <p>OracleDB - 50%</p>
+            <progress class="progress_bar" max="100" value="50"></progress>
+          </li>
+          <li>
+            <img src="images/java.png" alt="" class="icon" />
+            <p>Java - 60%</p>
+            <progress class="progress_bar" max="100" value="60"></progress>
+          </li>
+          <li>
+            <img src="images/office.png" alt="" class="icon" />
+            <p>OA - 80%</p>
+            <progress class="progress_bar" max="100" value="80"></progress>
+          </li>
+        </ul>
+        <div class="info"></div>
       </div>
     </section>
     <!--End skills section -->

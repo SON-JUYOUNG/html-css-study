@@ -96,3 +96,78 @@ header .mainimg {
   color: #dadada;
   font-weight: 300px;
 }
+
+@media(max-width:768px){
+  .main{
+    position: relative;
+  }
+
+  .header_nevigation{
+    position: absolute;
+    z-index: 3;
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .menu_icon{
+    width: 50px;
+    display: inline-block;
+  }
+
+  .menu_icon:hover{
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
+  /* .header_nevigation:hover{
+    background: white;
+  } */
+
+  
+  .header_nevigation a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+  }
+
+  .header_nevigation a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+
+
+  .main .logo_box{
+    margin-top: 0;
+    position: relative;
+    top: 200px;
+    z-index: 2;
+    height: 250px;
+    width: 250px;
+    margin-top: 0;
+  }
+
+  .main_contents{
+    position: relative;
+    top: 200px;
+    z-index: 2;
+  }
+
+  .main_contents h1{
+    font-size: 30px;
+  }
+
+  .main_contents .line {
+    height: 2px;
+  }
+
+  .main_contents p {
+    font-size: 13px;
+   }
+}
